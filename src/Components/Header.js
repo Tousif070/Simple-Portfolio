@@ -11,9 +11,14 @@ function Header()
 
             <h1>Tousif Hoque</h1>
 
-            <h2>Software Engineer</h2>
+            <h3>Software Engineer</h3>
 
             <p>Learning the art of software development</p>
+
+            <div>
+                <a href="#" class="btn"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;Email</a>
+                <a href="#" class="btn"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</a>
+            </div>
 
         </div>
     )
