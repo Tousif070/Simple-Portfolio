@@ -20,8 +20,8 @@ function Header()
             </div>
 
             <div className="btns">
-                <a href="#" class="_btn email"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;Email</a>
-                <a href="#" class="_btn linked"><i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</a>
+                <a href="#" className="_btn email"><i className="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;Email</a>
+                <a href="#" className="_btn linked"><i className="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;&nbsp;Linkedin</a>
             </div>
 
         </div>
