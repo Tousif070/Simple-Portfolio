@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #22252c;
+    font-family: 'Inter', sans-serif;
+}
+.main-div{
+    display: flex;
+    justify-content: center;
+}
+.main-div .content{
+    margin: 1rem auto;
+    background-color: #1a1b20;;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.header img{
+    width: 100%;
+    object-fit: cover;
+}
+.header .details{
+    text-align: center;
+    padding-top: 1rem;
+}
+.header h1{
+    color: #eceef0;
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+.header h3{
+    color: #907464;
+    font-size: 15px;
+}
+.header h5{
+    color: #9c9ea0;
+    font-size: 13px;
+}
+.header .btns{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+}
+.header ._btn{
+    padding: 5px 10px;
+    width: 40%;
+    text-align: center;
+    border-radius: 4px;
+    margin: 1rem;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all .3s ease;
+}
+.header ._btn.email{
+    color: #6b7076;
+    background-color: #fff;
+}
+.header ._btn.email:hover{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.header ._btn.linked{
+    color: #d2f1ff;
+    background-color: #5096e6;
+}
+.header ._btn.linked:hover{
+    color: #5096e6;
+    background-color: transparent;
+    border: 1px solid #5096e6;
+}
+
+/* Main Body */
+.main{
+    padding: .6rem 2rem;
+}
+.main h3{
+    font-size: 20px;
+    color: #c7c9ca;
+}
+.main p{
+    font-size: 14px;
+    color: #97989d;
+}
+/* footer */
+.footer {
+    text-align: center;
+    background-color: #161618;
+    padding: 10px 0;
+}
+.footer a{
+    color: #908e98;
+    margin: 0 10px;
+}
+
+.footer a:hover{
+    color: #fff;
+}
+
+
+
+
+@media (max-width: 360px){
+    .header ._btn {
+        font-size: 13px;
+    }
+}
+@media (max-width: 575.98px){
+    
+    .main-div .content{
+        max-width: 95%;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    
+    .main-div .content{
+        max-width: 70%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+    
+    .main-div .content{
+        max-width: 48%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+    
+    .main-div .content{
+        max-width: 37%;
+    }
+}
+
+@media (min-width: 1200px){
+    
+    .main-div .content{
+        max-width: 30%;
+    }
+}
